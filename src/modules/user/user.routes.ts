@@ -12,4 +12,4 @@ router.delete("/:id", userController.deleteUser)
 router.get("/", userController.getAllUsers)
 
 
-export const userRouter = router
+export const userRoutes = router
